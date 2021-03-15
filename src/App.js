@@ -1,10 +1,10 @@
 import "./styles.css";
-import Login from './Login';
+import Navbar from "./components/Navbar";
 
 export default function App() {
   return (
     <div className="App">
-      <Login />
+      <Navbar />
     </div>
   );
 }
